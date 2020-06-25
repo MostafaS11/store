@@ -1,0 +1,97 @@
+/* Media Query */
+
+
+@media ( max-width: 767px)
+{
+    body
+    {
+        padding-top: 59px;
+    }
+    .h1x
+    {
+        font-size: 45px;
+    }
+    .navbar-nav > li > a
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+    }
+    .about h1
+    {
+        margin-bottom: 10px;
+    }
+    .features h2
+    {
+        font-size: 30px;
+    }
+    .price-table h3
+    {
+        font-size: 35px;
+    }
+    .subscribe button
+    {
+        margin-top: 10px;
+    }
+    .our-skills h1
+    {
+        margin-bottom: 10px;
+    }
+    .our-skills .info
+    {
+        margin-top: 35px;
+    }
+    .footer
+    {
+        text-align: center;
+    }
+    .footer .works
+    {
+        margin-top: 30px;
+    }
+    
+    .footer .work
+    {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media ( min-width: 768px)
+{
+    .slider .carousel-caption
+    {
+        bottom: 0;
+    }
+    .our-skills
+    {
+        text-align: center;
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+    .footer .works
+    {
+        margin-top: 20px;
+    }
+}
+
+@media ( min-width: 992px)
+{
+    .slider .carousel-caption
+    {
+        bottom: 85px;
+    }
+    .footer .works
+    {
+        margin-top: 0px;
+    }
+    .contact-us .contact textarea
+    {
+        min-width: 555px;
+        max-width: 555px;
+    }
+}
